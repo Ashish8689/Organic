@@ -1,0 +1,126 @@
+.section-1{
+    padding: 50px 0;
+    height: 90vh;
+    background: linear-gradient(to bottom,#f1fefe,rgba(241,254,254,0));
+    width: 100%;
+}
+
+.section-1 .section-flex{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.section-1 .section-flex .section-left{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+}
+.section-1 .section-flex .section-right{
+    flex: 50%;
+}
+
+.section-1 .section-content{
+    max-width: 400px;
+}
+
+.section-1 .section-content h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    color: var(--bold-color);
+}
+
+.section-1 .section-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: var(--bold-color);
+}
+
+.section-1 button{
+    margin-top: 10px;
+     border:none;
+     padding: 12px 50px;
+    background: var(--main-color);
+    border-radius: 10px;
+    color: var(--title-color);
+    font-size: 15px;
+}
+
+.section-1 .section-image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.section-1 .cover-leaf{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -100px;
+    z-index: 1;
+    width: 370px;
+
+}
+
+.section-1 .section-inner-image-container{
+    position: relative;
+    background: var(--title-color);
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .section-inner-image-container::after{
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    width: 320px;
+    height: 270px;
+    border:3px solid var(--main-color);
+}
+
+.section-1 .section-inner-image-container img{
+    max-width: 200px;
+}
+
+
+
+@media (max-width:768px){
+
+    .section-1{
+        height: auto;
+    }
+
+    .section-1 .section-flex{
+        padding: 0;
+        height: auto;
+    }
+
+    .section-1 .section-content{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .section-1 .section-content p{
+       max-width:90%;
+       margin: 0 auto;
+    }
+
+    .section-1 button{
+        margin-top: 30px;
+    }
+
+    .section-1 .section-flex .section-right{
+        padding-top: 50px;
+        flex:100%;
+    }
+}

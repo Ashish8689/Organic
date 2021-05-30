@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+:root{
+  --main-color: #00dbd0;
+  --title-color:#ffffff;
+  --bold-color:#374b5c;
+}

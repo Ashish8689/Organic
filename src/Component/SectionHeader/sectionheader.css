@@ -1,0 +1,18 @@
+.section-header-container{
+    text-align: center;
+}
+
+.section-header-container .section-header-title{
+    font-size: 36px;
+    color: var(--bold-color);
+    padding-top: 15px;
+    opacity: .9;
+}
+
+.section-header-container .section-header-para{
+    font-size: 15px;
+    color: var(--bold-color);
+    max-width: 650px;
+    margin: 0 auto;
+    opacity: .8;
+}

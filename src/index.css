@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 100%;
+  }
+  
+  body{
+    width: 100%;
+    overflow-x:hidden;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Poppins', sans-serif!important;  
+  }
+  
+  body.active{
+    height: 100vh;
+    overflow-y:hidden;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: none;
+  }
+  
